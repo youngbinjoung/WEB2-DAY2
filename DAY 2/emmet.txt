@@ -1,0 +1,64 @@
+emmet 기능
+css 언어를 통해 html 마크업을 진행하는 기능 입니다.
+
+html 상에서 css 언어를 띄어쓰기 없이 작성한 후 탭을 누르면 자동으로 html 마크업이 됩니다.
+
+ex) ul>li>a
+
+적용모습
+
+<ul>
+
+<li><a href=""></a></li>
+
+</ul>
+
+클래스 명도 적용이 가능하다.
+ex ) ul.nav-wrap>li>a
+
+적용모습
+
+<ul class="nav-wrap">
+
+<li><a href=""></a></li>
+
+</ul>
+
+내부에 들어가는 href,src 등도 사용가능하다.
+ex ) ul>li>a[src="#"]
+
+적용모습
+
+<ul>
+
+<li><a href="" src="#"></a></li>
+
+</ul>
+
+내부에 들어가는 텍스트도 작성이 가능하다.
+ex ) ul>li>a{안녕하세요}
+
+적용모습
+
+<ul>
+
+<li><a href="" src="">안녕하세요</a></li>
+
+</ul>
+
+형제 엘리먼트도 만들수 있다.
+ex ) ul>li>a{안녕하세요}+div
+
+적용모습
+
+<ul>
+
+<li>
+
+<a href="">안녕하세요</a>
+
+<div></div>
+
+</li>
+
+</ul>
